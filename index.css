@@ -1,0 +1,499 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+header{
+    /* position: sticky; */
+    /* top: 0; */
+    margin: 0;
+    /* background-color: #EFE1D1; */
+    padding: 1rem;
+}
+/* navbar css */
+
+nav ul{
+    list-style-type: none;
+    align-items: center;
+}
+nav li{
+    display: inline;
+}
+li h1{
+    display: inline;
+    font-size: 2.5rem;
+    color: blue;
+    font-weight: 600;
+}
+sup{
+    font-size:0.8rem;
+    margin: -10px;
+}
+.lione a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 10px;
+    font-weight: 600;
+}
+.lione{
+    float: right;
+    padding-top: 1rem;
+    font-weight: 500;
+    font-size: 20px;
+}
+/* mobail nav */
+.Mobail_nav{
+    display: none; 
+}
+h1{
+    display: inline;
+    font-size: 2.5rem;
+    color: blue;
+    font-weight: 400;  
+}
+.dropdown{
+    display: inline;
+    position: relative;
+    float: right;
+    margin: -2.5rem 1rem 0 0;
+}
+.dropbtn{
+    height: 2rem;
+    width: 2rem;
+    right: 0;
+}
+.dropdown_content{
+    display: none;
+    position: absolute;
+    margin: 60px 0px 0 -6px;
+    width: 5rem;
+    background:local;
+    font-weight: 600;
+    font-size: 18px;
+}
+.dropdown_content a{
+    color: white;
+    display:inline;
+    text-decoration: none;
+    width: 10rem;
+}
+.dropdown:hover .dropdown_content{
+    display: inline;
+}
+section{
+    width: 90%;
+    margin: auto;
+}
+/* Section 1*/
+
+::-webkit-scrollbar{
+    height: 0;
+    width: 0;
+}
+.d1{
+    background-image: url("images/f12.png");
+    background-position:center ;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    box-shadow: inset 1px 1px 5px 5px rgba(55, 12, 136, 0.75);
+}
+/* Second Section CSS starts from here */
+.d2{
+    width: 90%;
+    margin: auto;
+    /* height: auto; */
+}
+.d2_one{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -7rem;
+    color: white;   
+}
+.container{
+    width: 24%;
+    padding: 10px 0px 10px 13px;
+    height: 15rem;
+    margin: auto 0.2rem;
+    overflow: scroll;
+    background-size: 100% 100%;
+    box-shadow: inset 1px 1px 5px 5px rgba(0,0,0,0.75);
+
+
+}
+.containe div {
+    height: 30%;
+}
+.container .text{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+.container button{
+    background: none;
+    border: 0;
+    margin: 0;
+}
+p{
+    padding-top: 2.5rem;
+}
+.container img{
+    padding: 0.5rem;
+    height: 3rem;
+    width: 2.5rem;
+    margin: 4rem 0 2rem 0;
+}
+button:hover{
+    cursor: pointer;
+}
+.c1{
+    background-image: url("images/f16.png");
+}
+.c2{
+    background-image: url("images/f14.png");
+}
+.c3{
+    background-image: url("images/f17.png");
+}
+.c4{
+    background-image: url("images/f15.png");
+}
+
+.d2box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1rem;
+    
+}
+.box{
+    width: 49%;
+    margin: 0.5rem auto;
+    height: 25rem;
+    
+}
+
+.d2_two_1{
+    background-color:rgb(0, 255, 255,0.1);
+    padding: 2rem;
+    box-shadow: inset 1px 1px 10px 5px rgba(0,0,0,0.75);
+
+}
+.d2_two_2{
+    background-image: url("images/f10.png");
+    background-size: 100% 100%;
+    background-position: center;
+    box-shadow: inset 1px 1px 10px 5px rgba(0,0,0,0.75);
+
+}
+
+.d2_three_1{
+    background-image: url("images/child-swim.png");
+    background-size: 100% 100%;
+    background-position: center;
+    box-shadow: inset 1px 1px 10px 5px rgba(0,0,0,0.75);
+
+}
+.d2_three_2{
+    background-color:rgb(0, 255, 255,0.1);
+    padding: 2rem;
+    box-shadow: inset 1px 1px 10px 5px rgba(0,0,0,0.75);
+
+
+}
+
+.d2 .d2box button{
+    margin: 1rem 0;
+    padding: 1rem 1.5rem;
+    background-image: url(images/f9.png);
+    background-size: cover;
+    background-position: center;
+    border: 0;
+    color: white;
+}
+/* Third Section CSS Start */
+.d3{
+    background-image: url("images/f6.png");
+    background-size: cover;
+    margin: 4rem 0;
+    height: 80vh;
+}
+.d3_one{
+    height: 80vh;
+    width: 49%;
+    margin-left: 3rem;
+    background-image: url(images/f7.png);
+    opacity: 0.9;
+    color: white;
+    padding: 2rem;
+    box-shadow: inset 1px 1px 15px 1px rgba(0,0,0,0.75);
+}
+.d3_one h2{
+    font-weight: 500;
+}
+.p2{
+    margin-top: 2rem;
+}
+.d3 button{
+    border: none;
+    padding: 0.8rem 1.5rem;
+    margin-top: 1rem;
+    background-color: white;
+    color: blue;
+}
+/* Fourth Section CSS Start */
+.d4{
+    width: 70%;
+    margin: auto;
+    height: auto;
+}
+.d4box{
+    display: flex;
+    width: 100%;
+}
+.d4_one{
+    height: auto;
+    margin: 2rem auto;
+}
+.d4box1{
+    height: 20rem;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    margin: 0.8rem;
+}
+.d4_one_1{
+    background-image: url(images/f16.png);
+    color: white;
+    padding: 2.5rem;
+    box-shadow: inset 1px 1px 10px 5px rgba(0,0,0,0.75);
+    overflow: scroll;
+}
+.d4_one_1 ul{
+    list-style-type: circle;
+    padding: 1rem 0; 
+}
+.d4_one_1 li{
+    line-height: 1.6rem;
+}
+.d4_one_2{
+    background-image: url("images/f5.png");
+    background-size: 100% 100%;
+    box-shadow: inset 1px 1px 10px 5px rgba(0,0,0,0.75);
+
+
+}
+/*  */
+.d4_two{
+    flex-wrap: wrap;
+    height: auto ;
+    margin: 3rem 0 1rem 0;
+    
+}
+.d4_two_1{
+    display: grid;
+    width: 24.5%;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: rgb(0, 255, 255,0.1);
+    box-shadow: inset 1px 1px 5px 5px rgba(0,0,0,0.75);
+
+}
+
+
+.d4_two_1 img{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    margin: -4rem auto;
+}
+.d4_two_1 h5{
+    color: red;
+}
+/*  */
+.d4_three{
+    padding: 0.5rem;
+}
+.d4_three_1{
+    background-image: url("images/f13.png");
+    background-size: cover;
+    color: white;
+    padding:1.5rem;
+    margin: 1rem 1rem 1rem 0;
+    width: 50%;
+    height: 20rem;
+    box-shadow: inset 1px 1px 10px 5px rgba(0,0,0,0.75);
+
+}
+.d4_three_1 h2{
+    font-weight: 500;
+}
+.d4_three_1 p  {
+    padding: 1rem 0;
+}
+.num{
+    display: flex;    
+}
+div img{
+    margin: 0 1.2rem 0 0rem;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.d4_three_2{
+    margin: 1rem 0 1rem 0rem;  
+    border: 1px solid black;
+    height: 20rem;
+    padding: 0.5rem;
+    box-shadow: inset 1px 1px 10px 5px rgba(0,0,0,0.75);
+
+}
+footer{
+    text-align: center;
+    padding: 1rem;
+}
+/* 1024 */
+@media screen and (max-width:1024px) {
+    .p2{
+        margin-top: 0;
+    }
+    .d4_one_1{
+        padding: 0.5rem 0rem 0 1.5rem;
+    }
+    .d4_one_1 ul{
+        padding: 0;
+    }
+   
+}
+/* Tablet */
+@media screen and (max-width:769px) {
+
+    nav ul{
+        text-align: center;
+    }
+    nav li{
+        text-align: center;
+    }
+    .lione{
+        margin:auto;
+        text-align: center;
+        padding:  auto;
+    }
+    .container{
+        width: 45%;
+        margin: 0.5rem auto;
+    }
+    .d2{
+        width: 90%;
+    }
+    .box{
+        width: 49%;
+        margin: 1rem auto;
+        padding: 1rem;
+        height: 20rem;
+    }
+    .d2_three{
+        flex-wrap: wrap-reverse;
+    }
+    .d2_three_2{
+        padding: 1rem;
+    }
+    .d3_one{
+        padding: 1rem;
+        width: 60%;
+    }
+    .d3_one_1{
+        padding-top: 1rem;
+    }
+    .d3_one p{
+        padding-top: 1rem;
+    }
+    .p2{
+        margin-top: 0.5rem;
+    }
+    .d4{
+        width: 90%;
+    }
+    .d4box1{
+        width: 49%;
+        margin: 1rem auto;   
+    }
+    .d4_one{
+        display: flex;
+        margin: auto;
+    }
+    .d4_one_1{
+        padding: 1rem 0.5rem 0 1.5rem;   
+    }
+    .d4_one_1 ul{
+        padding: 0.5rem 0 ;
+    }
+    .d4_two_1{
+        width: 49%;
+    }
+    .d4_three{
+        display: flex;
+        height: 25rem;
+    }
+    .d4_three_1{
+        padding: 1rem ;
+    }
+    footer{
+        width: 100%;
+        margin-top: 2rem;
+    }
+}
+
+
+
+/* Mobail */
+@media screen and (max-width:425px) {
+    .Mobail_nav{
+        display: block;
+    }
+    nav{
+        display: none;
+    }
+
+    .box{
+        width: 100%;
+    }
+    .d2_three{
+        flex-wrap:wrap-reverse;
+    }
+    .d3{
+        background-position: center;
+    }
+    .d3_one{
+        padding: 0.5rem 0.5rem;
+        width: 100%;
+        margin-left: 0rem;
+        opacity: 0.8;
+    }
+    .d4_one{
+         display: grid;
+         width: 100%;
+    }
+    .d4_three{
+        display: grid;
+        width: 100%;
+    }
+    .d4box1{
+        width: 100%;
+        padding: 1rem;
+       
+    }
+    .d4_one_1{
+        padding: 1rem;
+    }
+    .d4_one_1 ul{
+        padding: 1rem;
+    }
+    .d4_two_1{
+        width: 100%;
+    }
+    
+    
+}
+
