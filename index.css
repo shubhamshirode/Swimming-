@@ -5,14 +5,10 @@
     font-family: 'Nunito Sans', sans-serif;
 }
 header{
-    /* position: sticky; */
-    /* top: 0; */
     margin: 0;
-    /* background-color: #EFE1D1; */
     padding: 1rem;
 }
 /* navbar css */
-
 nav ul{
     list-style-type: none;
     align-items: center;
@@ -103,7 +99,6 @@ section{
 .d2{
     width: 90%;
     margin: auto;
-    /* height: auto; */
 }
 .d2_one{
     width: 100%;
@@ -120,8 +115,6 @@ section{
     overflow: scroll;
     background-size: 100% 100%;
     box-shadow: inset 1px 1px 5px 5px rgba(0,0,0,0.75);
-
-
 }
 .containe div {
     height: 30%;
@@ -160,50 +153,39 @@ button:hover{
 .c4{
     background-image: url("images/f15.png");
 }
-
 .d2box{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    padding: 1rem;
-    
+    padding: 1rem;   
 }
 .box{
     width: 49%;
     margin: 0.5rem auto;
     height: 25rem;
-    
 }
-
 .d2_two_1{
     background-color:rgb(0, 255, 255,0.1);
     padding: 2rem;
     box-shadow: inset 1px 1px 10px 5px rgba(0,0,0,0.75);
-
 }
 .d2_two_2{
     background-image: url("images/f10.png");
     background-size: 100% 100%;
     background-position: center;
     box-shadow: inset 1px 1px 10px 5px rgba(0,0,0,0.75);
-
 }
-
 .d2_three_1{
     background-image: url("images/child-swim.png");
     background-size: 100% 100%;
     background-position: center;
     box-shadow: inset 1px 1px 10px 5px rgba(0,0,0,0.75);
-
 }
 .d2_three_2{
     background-color:rgb(0, 255, 255,0.1);
     padding: 2rem;
     box-shadow: inset 1px 1px 10px 5px rgba(0,0,0,0.75);
-
-
 }
-
 .d2 .d2box button{
     margin: 1rem 0;
     padding: 1rem 1.5rem;
@@ -282,15 +264,11 @@ button:hover{
     background-image: url("images/f5.png");
     background-size: 100% 100%;
     box-shadow: inset 1px 1px 10px 5px rgba(0,0,0,0.75);
-
-
 }
-/*  */
 .d4_two{
     flex-wrap: wrap;
     height: auto ;
-    margin: 3rem 0 1rem 0;
-    
+    margin: 3rem 0 1rem 0;   
 }
 .d4_two_1{
     display: grid;
@@ -299,10 +277,7 @@ button:hover{
     padding: 1rem;
     background-color: rgb(0, 255, 255,0.1);
     box-shadow: inset 1px 1px 5px 5px rgba(0,0,0,0.75);
-
 }
-
-
 .d4_two_1 img{
     height: 6rem;
     width: 6rem;
@@ -312,7 +287,6 @@ button:hover{
 .d4_two_1 h5{
     color: red;
 }
-/*  */
 .d4_three{
     padding: 0.5rem;
 }
@@ -325,7 +299,6 @@ button:hover{
     width: 50%;
     height: 20rem;
     box-shadow: inset 1px 1px 10px 5px rgba(0,0,0,0.75);
-
 }
 .d4_three_1 h2{
     font-weight: 500;
@@ -347,7 +320,6 @@ div img{
     height: 20rem;
     padding: 0.5rem;
     box-shadow: inset 1px 1px 10px 5px rgba(0,0,0,0.75);
-
 }
 footer{
     text-align: center;
@@ -364,11 +336,9 @@ footer{
     .d4_one_1 ul{
         padding: 0;
     }
-   
 }
 /* Tablet */
 @media screen and (max-width:769px) {
-
     nav ul{
         text-align: center;
     }
@@ -444,9 +414,6 @@ footer{
         margin-top: 2rem;
     }
 }
-
-
-
 /* Mobail */
 @media screen and (max-width:425px) {
     .Mobail_nav{
@@ -493,7 +460,5 @@ footer{
     .d4_two_1{
         width: 100%;
     }
-    
-    
 }
 
