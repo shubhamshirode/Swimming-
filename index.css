@@ -62,15 +62,18 @@ h1{
 .dropdown_content{
     display: none;
     position: absolute;
-    margin: 60px 0px 0 -6px;
-    width: 5rem;
+    margin: 3.5rem 0px 0 -2rem;
+    width: auto;
     background:local;
     font-weight: 600;
     font-size: 18px;
+    background-color: white;
+    padding: 1rem;
 }
 .dropdown_content a{
-    color: white;
-    display:inline;
+    color: black;
+    padding: 0.5rem 0;
+    display:flex;
     text-decoration: none;
     width: 10rem;
 }
@@ -426,8 +429,30 @@ footer{
     .box{
         width: 100%;
     }
+    .d2_one{
+        flex-direction: column;
+    }
+    .container{
+        width: 90%;
+        height: auto;
+        padding: 1rem;
+    }
+    .container .text{
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+    }
+    .container img{
+        margin: 1rem 0;
+    }
+    .d2_two_1 h2{
+        margin-top: 1rem;
+    }
     .d2_three{
         flex-wrap:wrap-reverse;
+    }
+    .d2_three_2 h2{
+        margin-top: 1rem;
     }
     .d3{
         background-position: center;
